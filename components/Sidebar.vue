@@ -5,7 +5,7 @@
 
 				<div class="user">
 					<div class="user__info" data-toggle="dropdown">
-						<img class="user__img" src="/img/profile-pics/8.jpg" alt="">
+						<img class="user__img" src="img/profile-pics/8.jpg" alt="">
 						<div>
 							<div class="user__name">Malinda Hollaway</div>
 							<div class="user__email">malinda-h@gmail.com</div>
@@ -19,11 +19,11 @@
 					</div>
 				</div>
 				<ul class="navigation">
-					<nuxt-link tag="li" to="/" exact><a><i class="zmdi zmdi-home"></i> Home</a></nuxt-link>
+					<nuxt-link tag="li" :to="{name: 'index' }" exact><a><i class="zmdi zmdi-home"></i> Home2</a></nuxt-link>
 
-					<nuxt-link tag="li" to="/typography"><a><i class="zmdi zmdi-format-underlined"></i> Typography</a></nuxt-link>
+					<nuxt-link tag="li" :to="{name: 'typography' }"><a><i class="zmdi zmdi-format-underlined"></i> Typography</a></nuxt-link>
 
-					<nuxt-link tag="li" to="/widget"><a><i class="zmdi zmdi-widgets"></i> Widgets</a></nuxt-link>
+					<nuxt-link tag="li" :to="{ name: 'widget' }"><a><i class="zmdi zmdi-widgets"></i> Widgets</a></nuxt-link>
 
 					<li class="navigation__sub">
 						<a href="#"><i class="zmdi zmdi-view-list"></i> Tables</a>
@@ -137,7 +137,7 @@
 			<div class="scrollbar-inner">
 				<div class="listview listview--hover chat__buddies">
 					<a class="listview__item chat__available">
-						<img src="/img/profile-pics/7.jpg" class="listview__img" alt="">
+						<img src="img/profile-pics/7.jpg" class="listview__img" alt="">
 
 						<div class="listview__content">
 							<div class="listview__heading">Jeannette Lawson</div>
@@ -146,7 +146,7 @@
 					</a>
 
 					<a class="listview__item chat__available">
-						<img src="/img/profile-pics/5.jpg" class="listview__img" alt="">
+						<img src="img/profile-pics/5.jpg" class="listview__img" alt="">
 
 						<div class="listview__content">
 							<div class="listview__heading">Jeannette Lawson</div>
@@ -155,7 +155,7 @@
 					</a>
 
 					<a class="listview__item chat__away">
-						<img src="/img/profile-pics/3.jpg" class="listview__img" alt="">
+						<img src="img/profile-pics/3.jpg" class="listview__img" alt="">
 
 						<div class="listview__content">
 							<div class="listview__heading">Jeannette Lawson</div>
@@ -164,7 +164,7 @@
 					</a>
 
 					<a class="listview__item">
-						<img src="/img/profile-pics/8.jpg" class="listview__img" alt="">
+						<img src="img/profile-pics/8.jpg" class="listview__img" alt="">
 
 						<div class="listview__content">
 							<div class="listview__heading">Jeannette Lawson</div>
@@ -173,7 +173,7 @@
 					</a>
 
 					<a class="listview__item">
-						<img src="/img/profile-pics/6.jpg" class="listview__img" alt="">
+						<img src="img/profile-pics/6.jpg" class="listview__img" alt="">
 
 						<div class="listview__content">
 							<div class="listview__heading">Jeannette Lawson</div>
@@ -182,7 +182,7 @@
 					</a>
 
 					<a class="listview__item chat__busy">
-						<img src="/img/profile-pics/9.jpg" class="listview__img" alt="">
+						<img src="img/profile-pics/9.jpg" class="listview__img" alt="">
 
 						<div class="listview__content">
 							<div class="listview__heading">Jeannette Lawson</div>
