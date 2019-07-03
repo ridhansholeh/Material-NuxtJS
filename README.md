@@ -1,6 +1,7 @@
 # Material
 
 > Material-Admin
+> [Material NuxtJs](https://ridhansholeh.github.io/Material-NuxtJS/)
 
 ## Build Setup
 
