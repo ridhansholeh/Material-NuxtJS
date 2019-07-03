@@ -27,3 +27,4 @@ $ npm run generate:gh-pages
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+For detailed How to deploy on GitHub Pages? [GitHub Pages Deployment - Nuxt.js](https://nuxtjs.org/faq/github-pages).
