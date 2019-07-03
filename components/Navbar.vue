@@ -9,7 +9,7 @@
 		</div>
 
 		<div class="header__logo hidden-sm-down">
-			<h1><nuxt-link to="/">Material Admin 2.0</nuxt-link></h1>
+			<h1><nuxt-link :to="{name: 'index' }">Material Admin 2.0</nuxt-link></h1>
 		</div>
 
 		<form class="search">
@@ -35,7 +35,7 @@
 						</div>
 
 						<a href="" class="listview__item">
-							<img src="/img/profile-pics/1.jpg" class="listview__img" alt="">
+							<img src="img/profile-pics/1.jpg" class="listview__img" alt="">
 
 							<div class="listview__content">
 								<div class="listview__heading">
@@ -45,7 +45,7 @@
 							</div>
 						</a>
 						<a href="" class="listview__item">
-							<img src="/img/profile-pics/2.jpg" class="listview__img" alt="">
+							<img src="img/profile-pics/2.jpg" class="listview__img" alt="">
 
 							<div class="listview__content">
 								<div class="listview__heading">
@@ -56,7 +56,7 @@
 							</div>
 						</a>
 						<a href="" class="listview__item">
-							<img src="/img/profile-pics/3.jpg" class="listview__img" alt="">
+							<img src="img/profile-pics/3.jpg" class="listview__img" alt="">
 
 							<div class="listview__content">
 								<div class="listview__heading">
@@ -67,7 +67,7 @@
 							</div>
 						</a>
 						<a href="" class="listview__item">
-							<img src="/img/profile-pics/4.jpg" class="listview__img" alt="">
+							<img src="img/profile-pics/4.jpg" class="listview__img" alt="">
 
 							<div class="listview__content">
 								<div class="listview__heading">
@@ -78,7 +78,7 @@
 							</div>
 						</a>
 						<a href="" class="listview__item">
-							<img src="/img/profile-pics/5.jpg" class="listview__img" alt="">
+							<img src="img/profile-pics/5.jpg" class="listview__img" alt="">
 
 							<div class="listview__content">
 								<div class="listview__heading">
@@ -110,7 +110,7 @@
 
 						<div class="listview__scroll scrollbar-inner">
 							<a href="" class="listview__item">
-								<img src="/img/profile-pics/1.jpg" class="listview__img" alt="">
+								<img src="img/profile-pics/1.jpg" class="listview__img" alt="">
 
 								<div class="listview__content">
 									<div class="listview__heading">David Belle</div>
@@ -119,7 +119,7 @@
 							</a>
 
 							<a href="" class="listview__item">
-								<img src="/img/profile-pics/2.jpg" class="listview__img" alt="">
+								<img src="img/profile-pics/2.jpg" class="listview__img" alt="">
 
 								<div class="listview__content">
 									<div class="listview__heading">Jonathan Morris</div>
@@ -128,7 +128,7 @@
 							</a>
 
 							<a href="" class="listview__item">
-								<img src="/img/profile-pics/3.jpg" class="listview__img" alt="">
+								<img src="img/profile-pics/3.jpg" class="listview__img" alt="">
 
 								<div class="listview__content">
 									<div class="listview__heading">Fredric Mitchell Jr.</div>
@@ -137,7 +137,7 @@
 							</a>
 
 							<a href="" class="listview__item">
-								<img src="/img/profile-pics/4.jpg" class="listview__img" alt="">
+								<img src="img/profile-pics/4.jpg" class="listview__img" alt="">
 
 								<div class="listview__content">
 									<div class="listview__heading">Glenn Jecobs</div>
@@ -146,7 +146,7 @@
 							</a>
 
 							<a href="" class="listview__item">
-								<img src="/img/profile-pics/5.jpg" class="listview__img" alt="">
+								<img src="img/profile-pics/5.jpg" class="listview__img" alt="">
 
 								<div class="listview__content">
 									<div class="listview__heading">Bill Phillips</div>
@@ -155,7 +155,7 @@
 							</a>
 
 							<a href="" class="listview__item">
-								<img src="/img/profile-pics/1.jpg" class="listview__img" alt="">
+								<img src="img/profile-pics/1.jpg" class="listview__img" alt="">
 
 								<div class="listview__content">
 									<div class="listview__heading">David Belle</div>
@@ -164,7 +164,7 @@
 							</a>
 
 							<a href="" class="listview__item">
-								<img src="/img/profile-pics/2.jpg" class="listview__img" alt="">
+								<img src="img/profile-pics/2.jpg" class="listview__img" alt="">
 
 								<div class="listview__content">
 									<div class="listview__heading">Jonathan Morris</div>
@@ -173,7 +173,7 @@
 							</a>
 
 							<a href="" class="listview__item">
-								<img src="/img/profile-pics/3.jpg" class="listview__img" alt="">
+								<img src="img/profile-pics/3.jpg" class="listview__img" alt="">
 
 								<div class="listview__content">
 									<div class="listview__heading">Fredric Mitchell Jr.</div>
