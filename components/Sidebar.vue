@@ -19,7 +19,7 @@
 					</div>
 				</div>
 				<ul class="navigation">
-					<nuxt-link tag="li" :to="{name: 'index' }" exact><a><i class="zmdi zmdi-home"></i> Home2</a></nuxt-link>
+					<nuxt-link tag="li" :to="{name: 'index' }" exact><a><i class="zmdi zmdi-home"></i> Home</a></nuxt-link>
 
 					<nuxt-link tag="li" :to="{name: 'typography' }"><a><i class="zmdi zmdi-format-underlined"></i> Typography</a></nuxt-link>
 

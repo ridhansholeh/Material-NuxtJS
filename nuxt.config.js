@@ -36,10 +36,10 @@ export default {
   ** Global CSS
   */
   css: [
-    { src: '~/node_modules/material-design-iconic-font/dist/css/material-design-iconic-font.min.css', lang: 'css' },
-    { src: '~/node_modules/animate.css/animate.min.css', lang: 'css' },
-    { src: '~/node_modules/jquery.scrollbar/jquery.scrollbar.css', lang: 'css' },
-    { src: '~/assets/css/app.min.css', lang: 'css' },
+    { src: '~node_modules/material-design-iconic-font/dist/css/material-design-iconic-font.min.css', lang: 'css' },
+    { src: '~node_modules/animate.css/animate.min.css', lang: 'css' },
+    { src: '~node_modules/jquery.scrollbar/jquery.scrollbar.css', lang: 'css' },
+    { src: '~assets/css/app.min.css', lang: 'css' },
   ],
   /*
   ** Plugins to load before mounting the App
@@ -50,9 +50,9 @@ export default {
     // { src: '~plugins/popper.js', ssr: false },
     { src: '~plugins/jquery-scroll-bar.js', ssr: false },
     { src: '~plugins/jquery-scroll-lock.js', ssr: false },
-    { src: '~/assets/js/app.min.js', ssr: false },
-    { src: '~/plugins/vueScrollBehavior.js', ssr: false },
-    { src: '~/plugins/google-maps' },
+    { src: '~assets/js/app.min.js', ssr: false },
+    { src: '~plugins/vueScrollBehavior.js', ssr: false },
+    { src: '~plugins/google-maps' },
   ],
   /*
   ** Nuxt.js modules

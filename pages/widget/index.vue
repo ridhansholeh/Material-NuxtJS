@@ -143,15 +143,15 @@
 					</div>
 
 					<div class="widget-pictures__body row">
-						<a href="" class="col-4"><img src="/assets/demo/img/widgets/headers/1.png" alt=""></a>
-						<a href="" class="col-4"><img src="/assets/demo/img/widgets/headers/2.png" alt=""></a>
-						<a href="" class="col-4"><img src="/assets/demo/img/widgets/headers/3.png" alt=""></a>
-						<a href="" class="col-4"><img src="/assets/demo/img/widgets/headers/4.png" alt=""></a>
-						<a href="" class="col-4"><img src="/assets/demo/img/widgets/headers/5.png" alt=""></a>
-						<a href="" class="col-4"><img src="/assets/demo/img/widgets/headers/6.png" alt=""></a>
-						<a href="" class="col-4"><img src="/assets/demo/img/widgets/headers/7.png" alt=""></a>
-						<a href="" class="col-4"><img src="/assets/demo/img/widgets/headers/8.png" alt=""></a>
-						<a href="" class="col-4"><img src="/assets/demo/img/widgets/headers/9.png" alt=""></a>
+						<a href="" class="col-4"><img src="assets/demo/img/widgets/headers/1.png" alt=""></a>
+						<a href="" class="col-4"><img src="assets/demo/img/widgets/headers/2.png" alt=""></a>
+						<a href="" class="col-4"><img src="assets/demo/img/widgets/headers/3.png" alt=""></a>
+						<a href="" class="col-4"><img src="assets/demo/img/widgets/headers/4.png" alt=""></a>
+						<a href="" class="col-4"><img src="assets/demo/img/widgets/headers/5.png" alt=""></a>
+						<a href="" class="col-4"><img src="assets/demo/img/widgets/headers/6.png" alt=""></a>
+						<a href="" class="col-4"><img src="assets/demo/img/widgets/headers/7.png" alt=""></a>
+						<a href="" class="col-4"><img src="assets/demo/img/widgets/headers/8.png" alt=""></a>
+						<a href="" class="col-4"><img src="assets/demo/img/widgets/headers/9.png" alt=""></a>
 					</div>
 				</div>
 
@@ -506,7 +506,7 @@
 								<p>Sunday, September 4, 21:44:02 (2 Mins 56 Seconds)</p>
 
 								<div class="listview__attrs">
-									<span><img class="widget-visitors__country" src="/assets/demo/img/flags/United_States_of_America.png" alt=""> United States</span>
+									<span><img class="widget-visitors__country" src="assets/demo/img/flags/United_States_of_America.png" alt=""> United States</span>
 									<span>Firefox</span>
 									<span>Mac OSX</span>
 								</div>
@@ -518,7 +518,7 @@
 								<p>Sunday, September 4, 20:21:01 (5 Mins 12 Seconds)</p>
 
 								<div class="listview__attrs">
-									<span><img class="widget-visitors__country" src="/assets/demo/img/flags/Australia.png" alt=""> Australia</span>
+									<span><img class="widget-visitors__country" src="assets/demo/img/flags/Australia.png" alt=""> Australia</span>
 									<span>Chrome</span>
 									<span>Android</span>
 								</div>
@@ -530,7 +530,7 @@
 								<p>Sunday, September 4, 20:21:10 (10 Mins 43 Seconds)</p>
 
 								<div class="listview__attrs">
-									<span><img class="widget-visitors__country" src="/assets/demo/img/flags/Brazil.png" alt=""> Brazil</span>
+									<span><img class="widget-visitors__country" src="assets/demo/img/flags/Brazil.png" alt=""> Brazil</span>
 									<span>Edge</span>
 									<span>Windows</span>
 								</div>
@@ -542,7 +542,7 @@
 								<p>Sunday, September 4, 20:59:04 (1 Min 02 Seconds)</p>
 
 								<div class="listview__attrs">
-									<span><img class="widget-visitors__country" src="/assets/demo/img/flags/South_Korea.png" alt=""> South Korea</span>
+									<span><img class="widget-visitors__country" src="assets/demo/img/flags/South_Korea.png" alt=""> South Korea</span>
 									<span>Chrome</span>
 									<span>Android</span>
 								</div>
@@ -554,7 +554,7 @@
 								<p>Sunday, September 4, 20:58:12 (3 Min 44 Seconds)</p>
 
 								<div class="listview__attrs">
-									<span><img class="widget-visitors__country" src="/assets/demo/img/flags/Japan.png" alt=""> Japan</span>
+									<span><img class="widget-visitors__country" src="assets/demo/img/flags/Japan.png" alt=""> Japan</span>
 									<span>Chrome</span>
 									<span>Windows</span>
 								</div>
@@ -625,7 +625,7 @@
 				</div>
 
 				<div class="card">
-					<img class="card-img-top" src="/assets/demo/img/widgets/note.png" alt="">
+					<img class="card-img-top" src="assets/demo/img/widgets/note.png" alt="">
 					<div class="card-body">
 						<h4 class="card-title">Pellentesque Ligula Fringilla</h4>
 						<h6 class="card-subtitle">by Malinda Hollaway on 19th June 2015 at 09:10 AM</h6>
@@ -700,7 +700,7 @@
 					</div>
 
 					<a class="widget-contacts__map" href="">
-						<img src="/assets/demo/img/widgets/map.png" alt="">
+						<img src="assets/demo/img/widgets/map.png" alt="">
 					</a>
 				</div>
 			</div>
@@ -723,28 +723,28 @@
 						</div>
 
 						<div class="widget-signups__list">
-							<a v-b-tooltip.hover title="Jani Popovich" href=""><img class="avatar-img" src="/assets/demo/img/profile-pics/1.jpg" alt=""></a>
+							<a v-b-tooltip.hover title="Jani Popovich" href=""><img class="avatar-img" src="assets/demo/img/profile-pics/1.jpg" alt=""></a>
 							<a v-b-tooltip.hover title="Rosina Lamont" href=""><div class="avatar-char">R</div></a>
 							<a v-b-tooltip.hover title="Wava Vermeulen" href=""><div class="avatar-char">W</div></a>
-							<a v-b-tooltip.hover title="Delisa Sheilds" href=""><img class="avatar-img" src="/assets/demo/img/profile-pics/2.jpg" alt=""></a>
-							<a v-b-tooltip.hover title="Elsy Wilhoit" href=""><img class="avatar-img" src="/assets/demo/img/profile-pics/3.jpg" alt=""></a>
+							<a v-b-tooltip.hover title="Delisa Sheilds" href=""><img class="avatar-img" src="assets/demo/img/profile-pics/2.jpg" alt=""></a>
+							<a v-b-tooltip.hover title="Elsy Wilhoit" href=""><img class="avatar-img" src="assets/demo/img/profile-pics/3.jpg" alt=""></a>
 							<a v-b-tooltip.hover title="Deanne Jeffreys" href=""><div class="avatar-char">D</div></a>
 							<a v-b-tooltip.hover title="ddsds" href=""><div class="avatar-char">F</div></a>
 							<a v-b-tooltip.hover title="Shery Heredia" href=""><div class="avatar-char">S</div></a>
 							<a v-b-tooltip.hover title="Gaylord Coolbaugh" href=""><div class="avatar-char">G</div></a>
 							<a v-b-tooltip.hover title="Lyda Wortman" href=""><div class="avatar-char">L</div></a>
-							<a v-b-tooltip.hover title="Corene Langstaff" href=""><img class="avatar-img" src="/assets/demo/img/profile-pics/4.jpg" alt=""></a>
-							<a v-b-tooltip.hover title="Aracely Goudeau" href=""><img class="avatar-img" src="/assets/demo/img/profile-pics/5.jpg" alt=""></a>
+							<a v-b-tooltip.hover title="Corene Langstaff" href=""><img class="avatar-img" src="assets/demo/img/profile-pics/4.jpg" alt=""></a>
+							<a v-b-tooltip.hover title="Aracely Goudeau" href=""><img class="avatar-img" src="assets/demo/img/profile-pics/5.jpg" alt=""></a>
 							<a v-b-tooltip.hover title="Matilde Weibel" href=""><div class="avatar-char">M</div></a>
 							<a v-b-tooltip.hover title="Clement Mayor" href=""><div class="avatar-char">C</div></a>
 							<a v-b-tooltip.hover title="Phil Wyatt" href=""><div class="avatar-char">P</div></a>
 							<a v-b-tooltip.hover title="Altagracia Manke" href=""><div class="avatar-char">A</div></a>
 							<a v-b-tooltip.hover title="Siu Derosier" href=""><div class="avatar-char">S</div></a>
-							<a v-b-tooltip.hover title="Nigel Shipe" href=""><img class="avatar-img" src="/assets/demo/img/profile-pics/6.jpg" alt=""></a>
+							<a v-b-tooltip.hover title="Nigel Shipe" href=""><img class="avatar-img" src="assets/demo/img/profile-pics/6.jpg" alt=""></a>
 							<a v-b-tooltip.hover title="Bossman" href=""><div class="avatar-char">B</div></a>
 							<a v-b-tooltip.hover title="Crystal Markel" href=""><div class="avatar-char">C</div></a>
 							<a v-b-tooltip.hover title="Noman Nottage" href=""><div class="avatar-char">N</div></a>
-							<a v-b-tooltip.hover title="Melonie Carreira" href=""><img class="avatar-img" src="/assets/demo/img/profile-pics/7.jpg" alt=""></a>
+							<a v-b-tooltip.hover title="Melonie Carreira" href=""><img class="avatar-img" src="assets/demo/img/profile-pics/7.jpg" alt=""></a>
 							<a v-b-tooltip.hover title="Shaneka Hoyle" href=""><div class="avatar-char">S</div></a>
 							<a v-b-tooltip.hover title="Milagro Evans" href=""><div class="avatar-char">M</div></a>
 						</div>
@@ -753,7 +753,7 @@
 
 				<div class="card card--inverse widget-profile">
 					<div class="card-body text-center">
-						<img src="/assets/demo/img/profile-pics/profile-pic.jpg" class="widget-profile__img" alt="">
+						<img src="assets/demo/img/profile-pics/profile-pic.jpg" class="widget-profile__img" alt="">
 
 						<h4 class="card-title mb-0">Malinda Hollway</h4>
 
@@ -820,7 +820,7 @@
 
 					<div class="listview listview--hover">
 						<a class="listview__item">
-							<img src="/assets/demo/img/profile-pics/1.jpg" class="listview__img" alt="">
+							<img src="assets/demo/img/profile-pics/1.jpg" class="listview__img" alt="">
 
 							<div class="listview__content">
 								<div class="listview__heading">Jeannette Lawson</div>
@@ -829,7 +829,7 @@
 						</a>
 
 						<a class="listview__item">
-							<img src="/assets/demo/img/profile-pics/2.jpg" class="listview__img" alt="">
+							<img src="assets/demo/img/profile-pics/2.jpg" class="listview__img" alt="">
 
 							<div class="listview__content">
 								<div class="listview__heading">David Villa Jacobs</div>
@@ -838,7 +838,7 @@
 						</a>
 
 						<a class="listview__item">
-							<img src="/assets/demo/img/profile-pics/3.jpg" class="listview__img" alt="">
+							<img src="assets/demo/img/profile-pics/3.jpg" class="listview__img" alt="">
 
 							<div class="listview__content">
 								<div class="listview__heading">Candice Barnes</div>
@@ -847,7 +847,7 @@
 						</a>
 
 						<a class="listview__item">
-							<img src="/assets/demo/img/profile-pics/4.jpg" class="listview__img" alt="">
+							<img src="assets/demo/img/profile-pics/4.jpg" class="listview__img" alt="">
 
 							<div class="listview__content">
 								<div class="listview__heading">Darla Mckinney</div>
@@ -856,7 +856,7 @@
 						</a>
 
 						<a class="listview__item">
-							<img src="/assets/demo/img/profile-pics/5.jpg" class="listview__img" alt="">
+							<img src="assets/demo/img/profile-pics/5.jpg" class="listview__img" alt="">
 
 							<div class="listview__content">
 								<div class="listview__heading">Rudolph Perez</div>
@@ -950,20 +950,20 @@
 				// { rel: 'stylesheet', type: 'css', href: '/assets/vendors/jqTree/jqtree.css' }
 			],
 			script: [
-				{ src: '/assets/vendors/flot/jquery.flot.js', type: 'text/javascript', body: true },
-				{ src: '/assets/vendors/flot/jquery.flot.resize.js', type: 'text/javascript', body: true },
-				{ src: '/assets/vendors/flot.curvedlines/curvedLines.js', type: 'text/javascript', body: true },
-				{ src: '/assets/vendors/jqvmap/jquery.vmap.min.js', type: 'text/javascript', body: true },
-				{ src: '/assets/vendors/jqvmap/maps/jquery.vmap.world.js', type: 'text/javascript', body: true },
-				{ src: '/assets/vendors/easy-pie-chart/jquery.easypiechart.min.js', type: 'text/javascript', body: true },
-				{ src: '/assets/vendors/sparkline/jquery.sparkline.min.js', type: 'text/javascript', body: true },
-				{ src: '/assets/vendors/moment/moment.min.js', type: 'text/javascript', body: true },
+				{ src: 'assets/vendors/flot/jquery.flot.js', type: 'text/javascript', body: true },
+				{ src: 'assets/vendors/flot/jquery.flot.resize.js', type: 'text/javascript', body: true },
+				{ src: 'assets/vendors/flot.curvedlines/curvedLines.js', type: 'text/javascript', body: true },
+				{ src: 'assets/vendors/jqvmap/jquery.vmap.min.js', type: 'text/javascript', body: true },
+				{ src: 'assets/vendors/jqvmap/maps/jquery.vmap.world.js', type: 'text/javascript', body: true },
+				{ src: 'assets/vendors/easy-pie-chart/jquery.easypiechart.min.js', type: 'text/javascript', body: true },
+				{ src: 'assets/vendors/sparkline/jquery.sparkline.min.js', type: 'text/javascript', body: true },
+				{ src: 'assets/vendors/moment/moment.min.js', type: 'text/javascript', body: true },
 				// { src: '/assets/vendors/jqTree/tree.jquery.js', type: 'text/javascript' },
 
-				{ src: '/assets/demo/js/flot-charts/curved-line.js', type: 'text/javascript', body: true },
-				{ src: '/assets/demo/js/flot-charts/chart-tooltips.js', type: 'text/javascript', body: true },
-				{ src: '/assets/demo/js/other-charts.js', type: 'text/javascript', body: true },
-				{ src: '/assets/demo/js/jqvmap.js', type: 'text/javascript', body: true },
+				{ src: 'assets/demo/js/flot-charts/curved-line.js', type: 'text/javascript', body: true },
+				{ src: 'assets/demo/js/flot-charts/chart-tooltips.js', type: 'text/javascript', body: true },
+				{ src: 'assets/demo/js/other-charts.js', type: 'text/javascript', body: true },
+				{ src: 'assets/demo/js/jqvmap.js', type: 'text/javascript', body: true },
 			]
 		}
 	}
