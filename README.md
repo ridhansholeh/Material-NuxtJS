@@ -15,8 +15,15 @@ $ npm run dev
 $ npm run build
 $ npm start
 
+# build for production and launch server for Github Pages
+$ npm run build:gh-pages
+$ npm start
+
 # generate static project
 $ npm run generate
+
+# generate static project for Github Pages
+$ npm run generate:gh-pages
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
