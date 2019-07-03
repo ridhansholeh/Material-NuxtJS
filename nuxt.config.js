@@ -1,5 +1,11 @@
 const webpack = require('webpack')
 
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/Material-NuxtJS/'
+  }
+} : {}
+
 export default {
   mode: 'universal',
   /*
@@ -60,6 +66,7 @@ export default {
   /*
   ** Build configuration
   */
+  ...routerBase,
   build: {
     /*
     ** You can extend webpack config here
