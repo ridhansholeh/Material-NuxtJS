@@ -9,7 +9,7 @@
 		</div>
 
 		<div class="header__logo hidden-sm-down">
-			<h1><a href="index.html">Material Admin 2.0</a></h1>
+			<h1><nuxt-link to="/">Material Admin 2.0</nuxt-link></h1>
 		</div>
 
 		<form class="search">
@@ -327,7 +327,7 @@
 
 <script>
 	export default {
-		name: "Navbar"
+		name: "Navbar",
 	}
 </script>
 

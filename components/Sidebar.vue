@@ -23,10 +23,10 @@
 
 					<nuxt-link tag="li" to="/typography"><a><i class="zmdi zmdi-format-underlined"></i> Typography</a></nuxt-link>
 
-					<li><a href="widgets.html"><i class="zmdi zmdi-widgets"></i> Widgets</a></li>
+					<nuxt-link tag="li" to="/widget"><a><i class="zmdi zmdi-widgets"></i> Widgets</a></nuxt-link>
 
 					<li class="navigation__sub">
-						<a href=""><i class="zmdi zmdi-view-list"></i> Tables</a>
+						<a href="#"><i class="zmdi zmdi-view-list"></i> Tables</a>
 						<ul>
 							<li><a href="html-table.html">HTML Table</a></li>
 							<li><a href="data-table.html">Data Table</a></li>
@@ -90,12 +90,12 @@
 
 					<li><a href="photo-gallery.html"><i class="zmdi zmdi-image"></i> Photo Gallery</a></li>
 
-					<li class="navigation__sub">
+					<li :class="{ 'navigation__sub': true, 'navigation__sub--active navigation__sub--toggled': (routeParent(this.$route.name) === 'sample') }">
 						<a href=""><i class="zmdi zmdi-collection-item"></i> Sample Pages</a>
 						<ul>
 							<nuxt-link tag="li" to="/sample/empty"><a>Empty Page</a></nuxt-link>
 							<nuxt-link tag="li" to="/sample/maps"><a>Maps</a></nuxt-link>
-							<li><a href="404.html">404</a></li>
+							<nuxt-link tag="li" to="/sample/404"><a>404</a></nuxt-link>
 							<li><a href="blog.html">Blog</a></li>
 							<li><a href="blog-details.html">Blog Details</a></li>
 							<li><a href="contacts.html">Contacts</a></li>
@@ -199,10 +199,24 @@
 
 <script>
 	export default {
-		name: "Sidebar"
+		name: "Sidebar",
+		mounted() {
+			// console.log(this.$route.name);
+		},
+		methods: {
+			routeParent: function (route) {
+				var str = route.split("-");
+				console.log(str[0]);
+				// console.log(route);
+				// return route;
+				return str[0];
+			}
+		}
 	}
 </script>
 
-<style scoped>
-
+<style>
+	.ds-none {
+		display: none !important;
+	}
 </style>

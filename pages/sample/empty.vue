@@ -26,7 +26,6 @@
 
 			<div class="card-block">
 				<div class="card-body">
-					sad
 				</div>
 			</div>
 		</div>
@@ -35,7 +34,12 @@
 
 <script>
 	export default {
-		name: "empty"
+		name: "empty",
+		data() {
+			return {
+
+			}
+		},
 	}
 </script>
 

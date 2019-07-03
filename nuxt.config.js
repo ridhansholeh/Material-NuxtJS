@@ -16,9 +16,10 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     script: [
-      { src: 'https://code.jquery.com/jquery-3.3.1.slim.min.js', type: 'text/javascript' },
-      { src: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', type: 'text/javascript' },
-      { src: 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', type: 'text/javascript' }
+      // { src: 'https://code.jquery.com/jquery-3.3.1.slim.min.js', type: 'text/javascript' },
+      { src: 'https://code.jquery.com/jquery-3.4.1.min.js', type: 'text/javascript', body: true },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', type: 'text/javascript', body: true },
+      { src: 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', type: 'text/javascript', body: true }
     ]
   },
   /*
@@ -32,7 +33,6 @@ export default {
     { src: '~/node_modules/material-design-iconic-font/dist/css/material-design-iconic-font.min.css', lang: 'css' },
     { src: '~/node_modules/animate.css/animate.min.css', lang: 'css' },
     { src: '~/node_modules/jquery.scrollbar/jquery.scrollbar.css', lang: 'css' },
-    { src: '~/node_modules/fullcalendar/dist/fullcalendar.min.css', lang: 'css' },
     { src: '~/assets/css/app.min.css', lang: 'css' },
   ],
   /*
@@ -40,10 +40,10 @@ export default {
   */
   plugins: [
     // { src: '~/assets/js/bootstrap.min.js', ssr: false },
+    // { src: '~plugins/bootstrap.js', ssr: false },
     // { src: '~plugins/popper.js', ssr: false },
     { src: '~plugins/jquery-scroll-bar.js', ssr: false },
     { src: '~plugins/jquery-scroll-lock.js', ssr: false },
-    // { src: '~plugins/fullcalendar.js', ssr: false },
     { src: '~/assets/js/app.min.js', ssr: false },
     { src: '~/plugins/vueScrollBehavior.js', ssr: false },
     { src: '~/plugins/google-maps' },

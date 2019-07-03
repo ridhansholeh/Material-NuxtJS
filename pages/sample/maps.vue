@@ -31,7 +31,7 @@
 								v-for="(item, index) in markers"
 								:key="index"
 								:position="item"
-								@click="toggleInfoWindow(item,index)"
+								@click="toggleInfoWindow(item,index), center = {lat: item.lat, lng: item.lng}"
 						/>
 						<gmap-info-window
 								:options="infoOptions"
@@ -55,13 +55,14 @@
 		name: "maps",
 		data() {
 			return {
+				// navParent: "sample",
 				center: { lat: -2.2145852388265177, lng: 117.104081069627 },
 				mapTypeId: "roadmap",
 				markers: [
 					// { position: { lat: -0.48585, lng: 117.1466 }, id: 'OA1' },
-					// { lat: -0.48585, lng: 117.1466, id: 'OA1' },
+					{ lat: -0.48585, lng: 117.1466, id: '1' },
 					// { position: { lat: -6.9127778, lng: 107.6205556 }, id: 'OA2' }
-					// { lat: -6.9127778, lng: 107.6205556, id: 'OA2' }
+					{ lat: -6.9127778, lng: 107.6205556, id: '2' }
 				],
 				infoContent: '',
 				infoWindowPos: {
@@ -70,52 +71,21 @@
 				},
 				infoWinOpen: false,
 				currentMidx: null,
-				//optional: offset infowindow so it visually sits nicely on top of our marker
 				infoOptions: {
 					pixelOffset: {
 						width: 0,
 						height: -35
 					}
 				},
-				// formatedAddresses: '',
 			};
 		},
 		mounted () {
-			axios('http://server.getsensync.com/sensyncapps/main', {
-				crossDomain: true
-			}).then( ({ data }) => {
-				// data.airquality.map((item, key) => {
-				// 	this.markers.push(item)
-				// });
 
-				this.markers = data.airquality.map((e) => {
-					return {
-						id: e.id,
-						lat: parseFloat(e.lat),
-						lng: parseFloat(e.long),
-						pm10: e.pm10,
-						so2: e.so2,
-						o3: e.o3,
-						co: e.co,
-						no2: e.no2,
-						ispu: e.ispu,
-						timestamp: e.timestamp,
-						status_quality: e.status_quality,
-						status_site: e.status_site,
-					}
-				})
-			});
 		},
 		methods: {
 			toggleInfoWindow: function (marker, idx) {
 				this.infoWindowPos = { lat: marker.lat, lng: marker.lng };
-				// this.getTown(marker.lat, marker.lng);
-				axios.get("https://maps.googleapis.com/maps/api/geocode/json?latlng=" + marker.lat + "," + marker.lng + "&key=AIzaSyCBkW3l4xJIvrDcLskksqmaJ8g1oZZBKLQ")
-					.then((response) => {
-						this.formatedAddresses = response.data.results[0].formatted_address
-						console.log(this.formatedAddresses);
-						this.infoContent = this.getInfoWindowContent(marker, this.formatedAddresses);
-					})
+				this.infoContent = this.getInfoWindowContent(marker);
 
 				//check if its the same marker that was selected if yes toggle
 				if (this.currentMidx == idx) {
@@ -127,30 +97,18 @@
 					this.currentMidx = idx;
 				}
 			},
-			getInfoWindowContent: function (marker, address) {
+			getInfoWindowContent: function (marker) {
 				return ('<div class="card" style="margin-bottom: 0px;">' +
 					'	<div class="card-block">' +
 					'		<div class="card-body">' +
-					'			<strong>Neosense</strong>' +
-					'			<p>Pengguna : SITE Admin</p>' +
-					'			<p>Data terakhir diterima : ' + marker.timestamp + '</p>' +
-					'			<p>' + address + '</p>' +
-					'			<p>' + marker.status_quality + '</p>' +
-					'			<p>' + marker.status_site + '</p>' +
+					'			<strong>Info</strong>' +
+					'			<p>ID : ' + marker.id + '</p>' +
+					'			<p>Latitude : ' + marker.lat + '</p>' +
+					'			<p>Longitude : ' + marker.lng + '</p>' +
 					'		</div>' +
 					'	</div>' +
 					'</div>');
 			},
-			getTown: function (lat, lng) {
-				axios.get("https://maps.googleapis.com/maps/api/geocode/json?latlng=" + lat + "," + lng + "&key=AIzaSyCBkW3l4xJIvrDcLskksqmaJ8g1oZZBKLQ")
-					.then((response) => {
-// Ideally you'd search for the index with type = sublocality in address_components
-// 						this.town = response.data.results[0].address_components[1].long_name
-						this.formatedAddresses = response.data.results[0].formatted_address
-// 						console.log("The town is " + this.town);
-						console.log(this.formatedAddresses);
-					})
-			}
 		}
 	}
 </script>

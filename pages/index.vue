@@ -70,8 +70,6 @@
 </template>
 
 <script>
-	// import Fullcalendar from '~/plugins/fullcalendar.js'
-
 	export default {
 		created() {
 			// Fullcalendar()
